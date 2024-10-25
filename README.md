@@ -36,4 +36,6 @@ This website was created purely for educational purposes during a three-day coll
 
 ## Overview
 
-![1728001795722](/README/1728001795722.png)
+![proto1](/proto1.png)
+
+![proto2](/proto2.png)
