@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/30db37ddcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/women.js"></script>
+    <script defer src="/script.js"></script>
+    <link rel="stylesheet" href="/CSS/sex.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img id="logopic" src="/pictures/planet-earth.png" alt="Logo" />
+          <h1>the greenLabel</h1>
+        </div>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="Women.html">Women</a></li>
+          <li><a href="Unisex.html">Unisex</a></li>
+          <li><a href="Sale.html">Sale</a></li>
+          <li>
+            <a href="#" class="cart-notification" id="cartButton">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="badge" id="cart-badge">0</span>
+            </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="collection-search-container">
+        <h1 class="collection-title">Woman Collection</h1>
+        <p class="collection-description">
+          Discover our eco-friendly Man Collection at greenLabel. Stay stylish
+          and sustainable with our range of environmentally conscious women's
+          clothing.
+        </p>
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search..."
+          id="searchInput"
+        />
+        <button id="searchButton">Search</button>
+      </div>
+      <nav id="categoryForm" class="filter-nav">
+        <select id="category-filter">
+          <option value="">Category</option>
+          <option value="Tops">Tops</option>
+          <option value="Bottoms">Bottoms</option>
+          <option value="Outerwear">Outerwear</option>
+          <option value="Dresses">Dresses</option>
+          <option value="Accessories">Accessories</option>
+          <option value="Fragrance">Fragrance</option>
+        </select>
+        <select id="color-filter">
+          <option value="">Color</option>
+          <option value="Black">Black</option>
+          <option value="Blue">Blue</option>
+          <option value="Gray">Gray</option>
+          <option value="Red">Red</option>
+          <option value="Khaki">Khaki</option>
+          <option value="White">White</option>
+          <option value="Beige">Beige</option>
+          <option value="Navy">Navy</option>
+          <option value="Charcoal">Charcoal</option>
+          <option value="Olive">Olive</option>
+          <option value="Purple">Purple</option>
+          <option value="Plaid">Plaid</option>
+          <option value="Brown">Brown</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+        </select>
+        <select id="size-filter">
+          <option value="">Size</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="32">32</option>
+          <option value="42">42</option>
+          <option value="34">34</option>
+          <option value="One Size">One Size</option>
+        </select>
+        <input type="number" id="price-filter" placeholder="Max Price" />
+      </nav>
+      <div id="cardsContainer" class="cardsContainer">
+        <!-- Cards will be dynamically added here by JavaScript -->
+      </div>
+      <aside class="checkout-bar" id="checkoutBar">
+        <h2>Cart</h2>
+        <ul id="cartItems">
+          <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="totalPrice">0.00</span></p>
+        <button id="payButton">Pay</button>
+      </aside>
+    </main>
+    <footer></footer>
+  </body>
+</html>
